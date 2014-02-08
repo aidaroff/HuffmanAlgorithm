@@ -7,13 +7,6 @@
 #include "BitInputStream.hpp"
 #include "BitOutputStream.hpp"
 
-/** Authors: 
-  * 1) Alex Tsang - P. Kube's lecture;
-  *    login: 
-  * 2) Alibek Aidarov - N. Bandeira's lecture;
-  *    login: aaidarov
-  */ 
-
 using namespace std;
 
 /** A 'function class' for use as the Compare class in a
