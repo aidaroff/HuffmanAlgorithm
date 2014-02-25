@@ -1,7 +1,7 @@
 #include "BitInputStream.hpp" 
 
 /*
- * Authors: Alex Tsang and Ali Aaidorav
+ * Authors: Alex Tsang and Alibek Aidarov
  * Login actsang and aaidarov
  */
 
