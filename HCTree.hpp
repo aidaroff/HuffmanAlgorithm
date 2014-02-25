@@ -7,12 +7,10 @@
 #include "BitInputStream.hpp"
 #include "BitOutputStream.hpp"
 
-/** Authors: 
-  * 1) Alex Tsang - P. Kube's lecture;
-  *    login: 
-  * 2) Alibek Aidarov - N. Bandeira's lecture;
-  *    login: aaidarov
-  */ 
+/*
+ * Authors: Alex Tsang and Alibek Aidarov
+ * Login actsang and aaidarov
+ */
 
 using namespace std;
 
@@ -42,7 +40,9 @@ public:
         leaves = vector<HCNode*>(256, (HCNode*) 0);
     }
 
-    ~HCTree();
+    ~HCTree() {
+      delete root;
+    };
 
     /** Use the Huffman algorithm to build a Huffman coding trie.
      *  PRECONDITION: freqs is a vector of ints, such that freqs[i] is 
